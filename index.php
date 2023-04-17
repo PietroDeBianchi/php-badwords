@@ -15,7 +15,7 @@
         </div>
 		<div>
             <label for="word">Word to censor:</label>
-		    <input type="text" name="word" id="word">
+	        <input type="text" name="word" id="word">
         </div>
 		<input type="submit" value="Submit">
 	</form>
