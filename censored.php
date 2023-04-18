@@ -12,7 +12,7 @@
 <?php
 		$paragraph = $_GET['paragraph'];
 		$word = $_GET['word'];
-		$censored_paragraph = str_ireplace($word, '***', $paragraph);
+		$censored_paragraph = str_replace($word, '***', $paragraph);
 
 		echo "<p>Original Paragraph: " . $paragraph . "</p>";
 		echo "<p>Length of Original Paragraph: " . strlen($paragraph) . "</p>";
